@@ -31,20 +31,21 @@ class ListNode:
 # NUmber.2
 def has_cycle(head: ListNode) -> ListNode:
     result = None
-    if head and head.next and head.next.next:
+    if head and head.next:
         fast = slow = head
-        flag = 0
         while fast and fast.next:
-            fast = fast.next.next if flag == 0 else fast.next
+            fast = fast.next.next
             slow = slow.next
             if fast == slow:
-                if flag:
-                    result = fast
-                    break
-                else:
-                    slow = head
-                    flag = 1
+                fast = head
+                break
+        else:
+            return result
 
+        while fast != slow:
+            fast = fast.next
+            slow = slow.next
+        result = fast
     return result
 
 
