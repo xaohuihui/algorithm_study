@@ -2,7 +2,7 @@
 # @Author   : xaohuihui
 # @Time     : 19-12-19 上午9:59
 # @File     : binary_tree_traversal.py
-# Software  : study
+# Software  : algorithm_study
 
 """
 二叉树遍历，pre_order(先序遍历)、in_order(中序遍历)、post_order(后续遍历)、breadth_first_search(广度优先遍历)、depth_first_search(深度优先遍历)

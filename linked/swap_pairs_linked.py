@@ -2,7 +2,7 @@
 # @Author   : xaohuihui
 # @Time     : 19-12-12
 # @File     : swap_pairs_linked.py
-# Software  : study
+# Software  : algorithm_study
 
 """
 两两交换链表节点
@@ -15,6 +15,7 @@ class ListNode:
         self.next = None
 
 
+# # 第一种解法
 # def swap_pairs(head: ListNode) -> ListNode:
 #     pre = ListNode(0)
 #     pre.next = head
@@ -31,8 +32,10 @@ class ListNode:
 #
 #     return pre.next
 
+
+# #　第二种解法
 def swap_pairs(head: ListNode) -> ListNode:
-    if head is None or head.next is None:   # 当长度为奇数时返回最后一个节点，当长度为偶数的时候返回None
+    if head is None or head.next is None:  # 当长度为奇数时返回最后一个节点，当长度为偶数的时候返回None
         print(head.val if head else head)
         return head
 

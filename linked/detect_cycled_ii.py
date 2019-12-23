@@ -2,7 +2,7 @@
 # @Author   : xaohuihui
 # @Time     : 19-12-9 
 # @File     : detect_cycled_ii.py
-# Software  : study
+# Software  : algorithm_study
 
 """
 环形链表ii

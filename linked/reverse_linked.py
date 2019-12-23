@@ -2,7 +2,7 @@
 # @Author   : xaohuihui
 # @Time     : 19-12-6 
 # @File     : reverse_linked.py
-# Software  : study
+# Software  : algorithm_study
 
 """
 反转链表
@@ -15,6 +15,7 @@ class ListNode:
         self.next = None
 
 
+# # 第一种解法
 # def reverse_list(head: ListNode) -> ListNode:
 #     if head and head.next:
 #         a_list = list()
@@ -29,6 +30,7 @@ class ListNode:
 #     else:
 #         return head
 
+# # 第二种解法
 # def reverse_list(head: ListNode) -> ListNode:
 #     new_node = None
 #     while head:
@@ -41,6 +43,7 @@ class ListNode:
 #     else:
 #         return new_node
 
+# # 第三种解法
 def reverse_list(head: ListNode) -> ListNode:
     if head and head.next:
         p = reverse_list(head.next)

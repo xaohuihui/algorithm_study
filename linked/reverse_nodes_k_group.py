@@ -2,7 +2,7 @@
 # @Author   : xaohuihui
 # @Time     : 19-12-13 
 # @File     : reverse_nodes_k_group.py
-# Software  : study
+# Software  : algorithm_study
 
 """
 K 个一组翻转链表
