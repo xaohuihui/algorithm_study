@@ -8,8 +8,6 @@
 
 [25.k个一组翻转链表](linked/reverse_nodes_k_group.py)
 
-[二叉树的常见遍历方法](tree/binary_tree_traversal.py)
-
 [102.二叉树的层次遍历](tree/binary_tree_level_order_traversal.py)
 
 [141.环形链表](linked/detect_cycled_i.py)
@@ -18,3 +16,8 @@
 
 [206.反转链表](linked/reverse_linked.py)
 
+# 整理常见算法
+
+[二叉树的常见遍历方法](tree/binary_tree_traversal.py)
+
+[常见排序算法,冒泡，选择，插入，希尔，归并](sort_algorithm/sort_algotithm.py)
