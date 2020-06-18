@@ -16,6 +16,15 @@
 
 [206.反转链表](linked/reverse_linked.py)
 
+[892.三椎体的面积](leetcode/892_surface_area.py)
+
+[914.卡牌分组](leetcode/914_has_groups_sizeX.py)
+
+[999.车的可用捕获量](leetcode/999_num_rook_captures.py)
+
+# 剑指offer算法题
+[面试题57 - II. 和为s的连续正数序列](offer/57_find_continuous_sequence.py)
+
 # 整理常见算法
 
 [二叉树的常见遍历方法](tree/binary_tree_traversal.py)

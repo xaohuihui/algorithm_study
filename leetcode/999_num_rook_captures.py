@@ -4,7 +4,9 @@
 # @File     : 999_num_rook_captures.py
 # Software  : algorithm_study
 
-"""999. 车的可用捕获量"""
+"""999. 车的可用捕获量
+https://leetcode-cn.com/problems/available-captures-for-rook/
+"""
 
 
 def num_rook_rook_captures(board):
